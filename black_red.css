@@ -6,7 +6,7 @@
     
 }
 body{
-    background-image: url('img/pattern.png');
+    background-image: url('img/pattern2.png');
     background-size: cover;
     height: 100vh;
 
@@ -16,14 +16,14 @@ body{
     padding: 30px;
     width: 400px;
     height: 400px;
-    background: #cccccc;
+    background: #d12424;
     position: relative;
     border-radius: 50%;
 }
 .badge{
     padding: 5px 10px;
     width: 125px;
-    background: #56bf0f;
+    background: #000000;
     border-radius: 50%;
     color: #ffffff;
     font-family: sans-serif;
@@ -37,7 +37,8 @@ body{
 .clock_screen{
     padding: 105px 25px;
     height: 100%;
-    background: #ebebeb;
+    background: #000000;
+    color: #ffffff;
     font-size: 50px;
     text-align: center;
     border-radius: 50%;
