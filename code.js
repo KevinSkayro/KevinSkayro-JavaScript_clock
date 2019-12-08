@@ -38,3 +38,13 @@ document.getElementById('years').innerHTML = year;
 }
 
 setInterval(clock_date, 1000)
+
+
+    const themeSelect = document.getElementById('themeSelect');
+    const themesJS = document.getElementById('themesJS');
+
+    themeSelect.addEventListener('change', function(){
+        themesJS.setAttribute('href', 'css/' + this.value + '.css');
+    });
+
+

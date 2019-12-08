@@ -6,7 +6,7 @@
     
 }
 body{
-    background-image: url('img/pattern3.png');
+    background-image: url('../img/pattern.png');
     background-size: cover;
     height: 100vh;
 
@@ -16,14 +16,14 @@ body{
     padding: 30px;
     width: 400px;
     height: 400px;
-    background: #141852;
+    background: #cccccc;
     position: relative;
     border-radius: 50%;
 }
 .badge{
     padding: 5px 10px;
     width: 125px;
-    background: #483475;
+    background: #56bf0f;
     border-radius: 50%;
     color: #ffffff;
     font-family: sans-serif;
@@ -37,8 +37,7 @@ body{
 .clock_screen{
     padding: 105px 25px;
     height: 100%;
-    background: #2B2F77;
-    color: #ffffff;
+    background: #ebebeb;
     font-size: 50px;
     text-align: center;
     border-radius: 50%;
@@ -48,7 +47,7 @@ body{
     font-size: 35px;
 }
 #themeSelector{
-    margin: 20px 44%;
+    margin: 20px 47%;
     position: relative;
     
 
@@ -63,4 +62,6 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
+    background: #56bf0f;
+    color: #ffffff;
 }
