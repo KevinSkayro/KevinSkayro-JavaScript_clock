@@ -47,3 +47,20 @@ body{
 #date{
     font-size: 35px;
 }
+#themeSelector{
+    margin: 20px 44%;
+    position: relative;
+    
+
+}
+#themeSelect{
+    width: 120px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
